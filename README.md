@@ -26,7 +26,7 @@ To update the phone firmware:
 3. update the firmware on the phone from the internet
 4. re-run the scripts again on your phone
 5. re-install the apps you need
-6. copy all personal data back to the phone
-This will not leak so much personal data out.
+6. copy all personal data back to the phone.
+This approach will not leak so much personal data out.
 
 Have fun
