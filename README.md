@@ -10,8 +10,8 @@ The script of Step2 will not allow remote device management on your mobile devic
 You should install an alternative file manager app before running the scripts, so
 then you can install more apps later on locally.
 
-Step1 = remove bloatware from phone     / uninstall almost all pre-installed apps
-Step2 = remove all spyware from phone   / improve your privacy and the battery runtime
+- Step1 = remove bloatware from phone     / uninstall almost all pre-installed apps
+- Step2 = remove all spyware from phone   / improve your privacy and the battery runtime
 
 Use adb to run the scripts, install it on a computer that runs your preffered O.S.
 Connect your phone with USB to your computer and enable adb in developer settings.
@@ -26,7 +26,6 @@ To update the phone firmware:
 3. update the firmware on the phone from the internet
 4. re-run the scripts again on your phone
 5. re-install the apps you need
-6. copy all personal data back to the phone.
-This approach will not leak so much personal data out.
+6. copy all personal data back to the phone. This approach will not leak so much personal data out.
 
 Have fun
