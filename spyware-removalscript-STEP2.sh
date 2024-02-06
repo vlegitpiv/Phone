@@ -70,7 +70,8 @@
 ./adb shell pm uninstall -k --user 0 com.android.wallpaper.livepicker
 ./adb shell pm uninstall -k --user 0 com.android.printspooler
 ./adb shell pm uninstall -k --user 0 com.google.android.partnersetup
-./adb shell pm uninstall -k --user 0 com.android.mms
+./adb shell pm uninstall -k --user 0 com.google.android.dialer
+./adb shell pm uninstall -k --user 0 com.google.android.apps.messaging
 ./adb shell pm uninstall -k --user 0 com.android.imsserviceentitlement
 ./adb shell pm uninstall -k --user 0 com.android.managedprovisioning.overlay
 ./adb shell pm uninstall -k --user 0 com.android.remoteprovisioner
@@ -85,9 +86,9 @@
 ./adb shell pm uninstall -k --user 0 com.mediatek.mdmlsample
 ./adb shell pm uninstall -k --user 0 com.trustonic.teeservice
 #
-########################################################################################
-##### below commands might cause errors, but the java errors can be safely ignored #####
-########################################################################################
+#######################################################################
+##### below commands might cause errors, but these can be ignored #####
+#######################################################################
 ./adb shell pm uninstall -k --user 0 com.miui.phone.carriers.overlay.vodafone
 ./adb shell pm uninstall -k --user 0 com.aura.oobe.vodafone
 ./adb shell pm uninstall -k --user 0 de.telekom.tsc
@@ -99,11 +100,12 @@
 ./adb shell pm disable-user --user 0 com.ironsource.appcloud.oobe.hutchison
 ./adb shell pm disable-user --user 0 com.dti.bouyguestelecom
 ./adb shell pm disable-user --user 0 com.google.android.gms.supervision
+./adb shell pm disable-user --user 0 com.google.android.gms
 #
-###############################################################################################
-##### Before you can uninstall below package, you first need to replace your current      #####
-##### soft keyboard app in android. First install an alternative keyboard of your choice, #####
-##### and next go to <Input Method> and <Keyboard> and then activate the new keyboard.    #####
-##### Only run below line when you have installed and activated an alternative keyboard:  #####
-###############################################################################################
+#################################################################################################
+##### Before you can uninstall below package, you first need to replace your current google #####
+##### soft keyboard app in android. First install an alternative keyboard of your choice,   #####
+##### and next go to <Input Method> and <Keyboard> and then activate the new keyboard.      #####
+##### Only run below line when you have installed and activated an alternative keyboard:    #####
+#################################################################################################
 #./adb shell pm uninstall -k --user 0 com.google.android.inputmethod.latin
