@@ -72,6 +72,8 @@
 ./adb shell pm uninstall -k --user 0 com.google.android.setupwizard
 ./adb shell pm uninstall -k --user 0 com.google.android.partnersetup
 ./adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
+./adb shell pm uninstall -k --user 0 com.google.android.apps.restore
+./adb shell pm uninstall -k --user 0 com.miui.cleaner
 ./adb shell pm disable-user --user 0 com.miui.calculator
 ./adb shell pm disable-user --user 0 com.miui.compass   
 ./adb shell pm disable-user --user 0 com.miui.notes  
