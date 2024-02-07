@@ -101,6 +101,7 @@
 ./adb shell pm disable-user --user 0 com.dti.bouyguestelecom
 ./adb shell pm disable-user --user 0 com.google.android.gms.supervision
 ./adb shell pm disable-user --user 0 com.google.android.gms
+./adb shell pm disable-user --user 0 com.google.android.gsf
 #
 #################################################################################################
 ##### Before you can uninstall below package, you first need to replace your current google #####
